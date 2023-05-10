@@ -32,6 +32,7 @@
         "drupal/mailsystem": "^4.0",
         "drupal/smtp": "^1.2",
         "drupal/stable": "^2.0",
+        "drupal/taxonomy_manager": "^2.0",
         "drupal/thex": "^9.2",
         "drush/drush": "^11.5"
     },
