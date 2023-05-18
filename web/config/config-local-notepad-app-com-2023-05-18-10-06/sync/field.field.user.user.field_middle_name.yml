@@ -1,0 +1,20 @@
+uuid: 4f536a07-743a-4365-a778-8c97a34303f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_middle_name
+  module:
+    - user
+id: user.user.field_middle_name
+field_name: field_middle_name
+entity_type: user
+bundle: user
+label: 'Middle Name'
+description: 'Enter your middle name'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

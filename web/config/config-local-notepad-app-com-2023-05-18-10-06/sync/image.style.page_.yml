@@ -1,0 +1,14 @@
+uuid: 53775b81-2627-472b-bc7d-6ae1a2de3681
+langcode: en
+status: true
+dependencies: {  }
+name: page_
+label: 'page image'
+effects:
+  a1f916e2-0415-4613-9f36-2a7ca7113653:
+    uuid: a1f916e2-0415-4613-9f36-2a7ca7113653
+    id: image_resize
+    weight: 2
+    data:
+      width: 900
+      height: 900

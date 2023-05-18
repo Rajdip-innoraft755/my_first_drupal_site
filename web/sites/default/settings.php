@@ -848,4 +848,4 @@ $databases['default']['default'] = array (
     'isolation_level' => 'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED',
   ],
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_i8hZGqn9F961Qn3CGroEsKCUaOj9iyqqq7fVX45CnytQx3PW8KjDCXJQaAJd8VYjn5qMI-Dmag/sync';
+$settings['config_sync_directory'] = 'config/config-local-notepad-app-com-2023-05-18-10-06/sync';

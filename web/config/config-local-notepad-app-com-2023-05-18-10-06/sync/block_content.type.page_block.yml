@@ -1,0 +1,8 @@
+uuid: 8b1b2bbd-e6d1-41d0-ba88-83128e883348
+langcode: en
+status: true
+dependencies: {  }
+id: page_block
+label: 'Page Block'
+revision: 0
+description: 'This is "page block" block type which created for the task of FT2023-230. '

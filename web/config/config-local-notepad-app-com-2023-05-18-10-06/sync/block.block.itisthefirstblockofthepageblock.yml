@@ -1,0 +1,25 @@
+uuid: ddc94e35-d463-4504-8635-ef56bd43601b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:page_block:d7e5b041-ef99-4f13-85ac-5b17eb37f7e4'
+  module:
+    - block_content
+  theme:
+    - bootstrap5
+id: itisthefirstblockofthepageblock
+theme: bootstrap5
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:d7e5b041-ef99-4f13-85ac-5b17eb37f7e4'
+settings:
+  id: 'block_content:d7e5b041-ef99-4f13-85ac-5b17eb37f7e4'
+  label: 'It is the First block of the Page Block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

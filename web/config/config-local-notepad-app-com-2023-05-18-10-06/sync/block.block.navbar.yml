@@ -1,0 +1,25 @@
+uuid: ed028311-7257-4125-87aa-2d4531a12550
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.navbar
+  module:
+    - system
+  theme:
+    - bootstrap5
+id: navbar
+theme: bootstrap5
+region: nav_additional
+weight: 0
+provider: null
+plugin: 'system_menu_block:navbar'
+settings:
+  id: 'system_menu_block:navbar'
+  label: navbar
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

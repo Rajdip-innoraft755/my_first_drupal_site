@@ -1,0 +1,33 @@
+uuid: 86c201d9-4169-479b-937b-f77735876259
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.news_author.field_news_author_profile_pictur
+    - node.type.news_author
+  module:
+    - image
+    - user
+id: node.news_author.default
+targetEntityType: node
+bundle: news_author
+mode: default
+content:
+  field_news_author_profile_pictur:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

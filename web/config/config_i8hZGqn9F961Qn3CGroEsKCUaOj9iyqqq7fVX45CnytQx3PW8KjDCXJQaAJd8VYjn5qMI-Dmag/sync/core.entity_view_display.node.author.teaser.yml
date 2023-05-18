@@ -1,0 +1,26 @@
+uuid: f0492654-2b3e-4fc7-bdde-acfa6f8f4444
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.author.field_author_name
+    - field.field.node.author.field_books
+    - field.field.node.author.field_creat
+    - node.type.author
+  module:
+    - user
+id: node.author.teaser
+targetEntityType: node
+bundle: author
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_author_name: true
+  field_books: true
+  field_creat: true

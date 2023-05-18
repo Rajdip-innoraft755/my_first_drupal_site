@@ -1,0 +1,21 @@
+uuid: 17c6331a-590c-462b-bfef-e5b702fd657e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_float
+    - node.type.testing
+  module:
+    - options
+id: node.testing.field_float
+field_name: field_float
+entity_type: node
+bundle: testing
+label: float
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_float
