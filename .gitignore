@@ -44,5 +44,6 @@ web/sites/*/files/
 web/sites/default/*/files
 web/modules/*/
 web/themes/contrib/
+web/themes/custom/
 web/themes/adaptivetheme/
 web/core/

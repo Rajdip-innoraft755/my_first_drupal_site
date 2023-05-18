@@ -1,23 +1,23 @@
-uuid: ed028311-7257-4125-87aa-2d4531a12550
+uuid: ae81609a-d682-463b-80cf-565b28776b71
 langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.navbar
+    - system.menu.header
   module:
     - system
   theme:
     - bootstrap5
-id: navbar
+id: header
 theme: bootstrap5
 region: nav_additional
 weight: 0
 provider: null
-plugin: 'system_menu_block:navbar'
+plugin: 'system_menu_block:header'
 settings:
-  id: 'system_menu_block:navbar'
-  label: navbar
-  label_display: visible
+  id: 'system_menu_block:header'
+  label: header
+  label_display: '0'
   provider: system
   level: 1
   depth: 0
