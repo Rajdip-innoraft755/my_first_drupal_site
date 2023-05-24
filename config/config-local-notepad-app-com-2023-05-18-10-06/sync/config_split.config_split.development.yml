@@ -1,0 +1,17 @@
+uuid: fa88ba35-f95f-4dab-9165-c488a02a9a8a
+langcode: en
+status: true
+dependencies: {  }
+id: development
+label: development
+description: 'It is for developer.'
+weight: 0
+folder: ../config/config-local-notepad-app-com-2023-05-18-10-06/development
+module: {  }
+theme: {  }
+blacklist:
+  - asset_injector.css.error403
+  - asset_injector.css.error404
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true

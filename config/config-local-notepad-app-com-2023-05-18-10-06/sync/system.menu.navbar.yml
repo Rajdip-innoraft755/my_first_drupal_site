@@ -1,0 +1,8 @@
+uuid: c7b8d030-4970-48f6-877f-cdc2ee210145
+langcode: en
+status: true
+dependencies: {  }
+id: navbar
+label: navbar
+description: 'navbar section for all the pages'
+locked: false

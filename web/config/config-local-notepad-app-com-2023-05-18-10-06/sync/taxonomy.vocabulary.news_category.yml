@@ -1,8 +1,0 @@
-uuid: abd23a61-e4af-4967-b242-74b6288e9881
-langcode: en
-status: true
-dependencies: {  }
-name: 'News Category'
-vid: news_category
-description: 'It is to specify the category of the news'
-weight: 0

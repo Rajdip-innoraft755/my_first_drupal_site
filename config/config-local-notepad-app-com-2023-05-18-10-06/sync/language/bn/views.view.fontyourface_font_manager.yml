@@ -1,0 +1,13 @@
+display:
+  default:
+    display_options:
+      fields:
+        operations:
+          label: কার্যাবলী
+      filters:
+        name:
+          expose:
+            label: নাম
+        field_tags_target_id:
+          expose:
+            label: ট্যাগ

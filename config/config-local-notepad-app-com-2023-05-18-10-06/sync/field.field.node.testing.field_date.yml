@@ -1,0 +1,24 @@
+uuid: 6233e61e-9977-4801-98c5-b4ce6f017a11
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.testing
+  module:
+    - datetime
+id: node.testing.field_date
+field_name: field_date
+entity_type: node
+bundle: testing
+label: date
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

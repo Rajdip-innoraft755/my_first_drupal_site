@@ -1,0 +1,18 @@
+uuid: cda92924-822c-441b-bf7b-81fb58f9f744
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.news_author
+id: node.news_author.title
+field_name: title
+entity_type: node
+bundle: news_author
+label: 'News Author Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
