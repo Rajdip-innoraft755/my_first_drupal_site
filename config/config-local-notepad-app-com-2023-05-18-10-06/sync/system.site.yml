@@ -3,7 +3,7 @@ _core:
 langcode: en
 uuid: 260d569c-73be-4b41-afef-2879beb7927a
 name: 'Drupal Training'
-mail: rajdip.roy@innoraft.com
+mail: rajdip.roy1@innoraft.com
 slogan: 'The best place to understand Drupal concepts'
 page:
   403: /node/4
