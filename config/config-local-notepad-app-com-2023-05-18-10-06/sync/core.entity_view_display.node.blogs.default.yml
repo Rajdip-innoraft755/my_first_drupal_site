@@ -5,11 +5,13 @@ dependencies:
   config:
     - field.field.node.blogs.field_blog_author
     - field.field.node.blogs.field_blog_image
+    - field.field.node.blogs.field_bolg_details
     - field.field.node.blogs.field_date_
     - field.field.node.blogs.field_description
     - node.type.blogs
   module:
     - datetime
+    - entity_reference_revisions
     - image
     - user
 id: node.blogs.default
@@ -35,6 +37,15 @@ content:
         attribute: lazy
     third_party_settings: {  }
     weight: 103
+    region: content
+  field_bolg_details:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 106
     region: content
   field_date_:
     type: datetime_default

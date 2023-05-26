@@ -1,0 +1,25 @@
+uuid: ec9c7b58-627a-4302-9297-3d6bcd483b57
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bolg_details
+    - node.type.blogs
+  module:
+    - entity_reference_revisions
+id: node.blogs.field_bolg_details
+field_name: field_bolg_details
+entity_type: node
+bundle: blogs
+label: 'Bolg Details'
+description: 'Add the blog details here.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    negate: 0
+field_type: entity_reference_revisions
