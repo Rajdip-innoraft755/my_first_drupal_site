@@ -1,0 +1,16 @@
+uuid: 745e58a4-d985-4fe8-a03d-aa9d6e99d087
+langcode: en
+status: true
+dependencies: {  }
+id: development
+label: development
+description: ''
+weight: 0
+folder: ../config/config-local-notepad-app-com-2023-05-18-10-06/development
+module:
+  devel: 0
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true

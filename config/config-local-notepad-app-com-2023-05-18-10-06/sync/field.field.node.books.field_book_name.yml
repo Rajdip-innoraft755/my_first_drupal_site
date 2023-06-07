@@ -1,0 +1,19 @@
+uuid: 4af0270c-bdcb-48a3-a94c-5f7dcc2eedad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_book_name
+    - node.type.books
+id: node.books.field_book_name
+field_name: field_book_name
+entity_type: node
+bundle: books
+label: 'Book Name'
+description: 'Enter the book name you want to register.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: 1dbc6c83-9678-429f-9fc5-9fd82fe69b99
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_creat
+    - node.type.author
+id: node.author.field_creat
+field_name: field_creat
+entity_type: node
+bundle: author
+label: 'creation time'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1683540627
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

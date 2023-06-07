@@ -1,0 +1,25 @@
+uuid: ae81609a-d682-463b-80cf-565b28776b71
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.header
+  module:
+    - system
+  theme:
+    - bootstrap5
+id: header
+theme: bootstrap5
+region: nav_additional
+weight: 0
+provider: null
+plugin: 'system_menu_block:header'
+settings:
+  id: 'system_menu_block:header'
+  label: header
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

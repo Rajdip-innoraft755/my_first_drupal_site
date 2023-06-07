@@ -1,0 +1,18 @@
+uuid: cce5b867-f0fd-4717-b967-e371d4def75b
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Test
+type: _test
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
